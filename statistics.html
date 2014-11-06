@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<div id="header">
+			<div id="headerText">
+				<h1 id="title">Tweet download statistics</h1>
+				<h2 id="subtitle">by Timea Turdean</h2>
+		</div>
+	</div>
+	<div id="middle">
+		<div id="form">
+			<form method="post" action="showPerHour.php">
+				<input type="submit" id='selectToday' class='myButton' name="selectToday" value='Show data today'></input>
+			</form>
+			<br>
+			<form method="post" action="showPerDay.php">
+				<input type="submit" id='selectThisMonth' class='myButton' name="selectThisMonth" value='Show data this month'></input>
+			</form>
+			<br>
+			<form method="post" action="showLastSixMonths.php">
+				<input type="submit" id='selectLastMonths' class='myButton' name="selectLastMonths" value='Show data from last months'></input>
+			</form>
+		</div>
+	</div>
+
+</body>
+</html>
