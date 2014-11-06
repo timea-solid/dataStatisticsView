@@ -69,9 +69,7 @@ function selectPerDay($result) {
 			} 
 		}
 	}
-}
-?>
-
+	?>
 <script type="text/javascript">
 var startDate = "<?php echo $startDate; ?>";
 var dataset = [ 
@@ -86,6 +84,11 @@ if (!empty($outputPerDay)) {
 ?>
 ];
 </script>
+<?php
+}
+?>
+
+
 
 	<div id="header">
 			<div id="headerText">

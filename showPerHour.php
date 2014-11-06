@@ -70,8 +70,7 @@ function selectPerHour($result) {
 			} 
 		}
 	}
-}
-?>
+?>	
 <script type="text/javascript">
 var startDate = "<?php echo $startDate; ?>";
 var dataset = [ 
@@ -86,6 +85,9 @@ if (!empty($outputPerHour)) {
 ?>
 ];
 </script>
+<?php
+}
+?>
 
 	<div id="header">
 			<div id="headerText">
